@@ -565,7 +565,7 @@ h6 {
 }
 
 .logo-client {
-  fill: var(--link-color-second);
+  fill: #afb1b8;
 }
 
 .item-client:hover,
