@@ -86,7 +86,7 @@ h6 {
 
 .header {
   display: flex;
-  padding: 24px 215px;
+  padding: 24px 25px;
   border-bottom: 1px solid var(--border-color-head);
 }
 
@@ -307,6 +307,10 @@ h6 {
   height: 120px;
   background-color: #f5f4fa;
   margin-bottom: 30px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .thumb > .item-specification-thumb {
@@ -429,18 +433,24 @@ h6 {
   border: 1px solid transparent;
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: #fff;
 }
 
 .list-team .card-mamber + .card-mamber {
   margin-left: 30px;
 }
+.foto-mamber {
+  display: block;
+  min-width: 100%;
+  height: auto;
+}
+
 .footer-card {
   flex-grow: 1;
   margin: 0;
   padding-top: 30px;
   padding-bottom: 30px;
   border: 1px solid transparent;
-  background-color: #fff;
 }
 
 .name-mamber {
@@ -480,6 +490,9 @@ h6 {
   height: 44px;
   display: flex;
 }
+.social-team-item + .social-team-item {
+  margin-left: 10px;
+}
 
 .mamber-social-link {
   width: 100%;
@@ -490,6 +503,7 @@ h6 {
   align-items: center;
   justify-content: center;
 }
+
 .mamber-social-icon {
   display: flex;
   fill: var(--link-color-second);
@@ -530,7 +544,7 @@ h6 {
 }
 
 .card-client {
-  display: flex;
+  display: block;
   justify-content: center;
   align-items: center;
   width: 170px;
